@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="267dp"
+            android:layout_height="116dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vemprofut" />
+
+        <TextView
+            android:id="@+id/tw_goleiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Goleiro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tw_title" />
+
+        <TextView
+            android:id="@+id/tw_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Escolha seus jogadores"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+
+        <RadioGroup
+            android:id="@+id/rb_group_gol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tw_goleiro">
+
+            <RadioButton
+                android:id="@+id/rb_goleiro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De Gea"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="207dp" />
+
+            <RadioButton
+                android:id="@+id/rb_goleiro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buffon"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="207dp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_gol"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_group_gol"
+            app:srcCompat="@drawable/padrao" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Zagueiro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_gol" />
+
+        <RadioGroup
+            android:id="@+id/rb_group_zag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <RadioButton
+                android:id="@+id/rb_zagueiro_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T. Silva"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="308dp"
+                tools:text="T. Silva" />
+
+            <RadioButton
+                android:id="@+id/rb_zagueiro_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S. Ramos"
+                tools:layout_editor_absoluteX="195dp"
+                tools:layout_editor_absoluteY="307dp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_zag"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_group_zag"
+            app:srcCompat="@drawable/padrao" />
+
+        <TextView
+            android:id="@+id/tw_mc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Meio de campo 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_zag" />
+
+        <RadioGroup
+            android:id="@+id/rb_group_mc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tw_mc_1">
+
+            <RadioButton
+                android:id="@+id/rb_mc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kroos"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <RadioButton
+                android:id="@+id/rb_mc_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modric"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="372dp" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_mc_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_group_mc_1"
+            app:srcCompat="@android:color/background_light"
+            tools:srcCompat="@drawable/padrao" />
+
+        <TextView
+            android:id="@+id/tw_mc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Meio de campo 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_mc_1" />
+
+        <RadioGroup
+            android:id="@+id/rb_group_mc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tw_mc_2">
+
+            <RadioButton
+                android:id="@+id/rb_mc_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coutinho"
+                tools:layout_editor_absoluteX="194dp"
+                tools:layout_editor_absoluteY="442dp" />
+
+            <RadioButton
+                android:id="@+id/rb_mc_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De Bruyne"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="442dp" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_mc_2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/white"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_group_mc_2"
+            app:srcCompat="@drawable/padrao" />
+
+        <TextView
+            android:id="@+id/tw_atacantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Atacantes"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_mc_2" />
+
+        <RadioGroup
+            android:id="@+id/rb_group_atacante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tw_atacantes">
+
+            <RadioButton
+                android:id="@+id/rb_atacante_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pique"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="1778dp" />
+
+            <RadioButton
+                android:id="@+id/rb_atacante2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messi"
+                tools:layout_editor_absoluteX="202dp"
+                tools:layout_editor_absoluteY="1778dp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_atacante"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_group_atacante"
+            app:srcCompat="@drawable/padrao" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

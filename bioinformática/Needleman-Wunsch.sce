@@ -2,8 +2,8 @@
    Implementação do algoritmo Needleman-Wunsch
    Linguagem: Scilab.
    
-   Integrantes: Everton Camacho
-                Lorraine Pepe
+   Integrantes: Lorraine M. Pepe e Everton Camacho
+                
 */
 function [nome_seq_1, seq_1, tam_seq_1, nome_seq_2, seq_2, tam_seq_2] = ler_fasta()
     clc // limpa a tela

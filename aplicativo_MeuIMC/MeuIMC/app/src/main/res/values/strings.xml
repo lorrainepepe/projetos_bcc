@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Meu IMC</string>
+    <string name="title_activity_imc">Meu IMC</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Fechar</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_conta">Conta</string>
+    <string name="menu_historico">Histórico</string>
+    <string name="menu_medir">Calcular IMC</string>
+    <string name="menu_quit">Sair</string>
+    <string name="title_activity_esqueci_senha">Esqueci minha senha</string>
+</resources>

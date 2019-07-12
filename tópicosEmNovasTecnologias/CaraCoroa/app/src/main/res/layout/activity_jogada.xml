@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#62BD8D"
+    tools:context=".JogadaActivity">
+
+    <ImageView
+        android:id="@+id/imgRes"
+        android:layout_width="275dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moeda_cara" />
+
+    <ImageButton
+        android:id="@+id/imgButtonvoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintStart_toStartOf="@+id/imgRes"
+        app:layout_constraintTop_toBottomOf="@+id/imgRes"
+        app:srcCompat="@drawable/botao_voltar" />
+</android.support.constraint.ConstraintLayout>

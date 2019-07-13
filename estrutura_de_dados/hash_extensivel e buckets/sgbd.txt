@@ -1,0 +1,64 @@
+Linha: 0|	 *********************************** REMOVIDO *********************************** 
+Linha: 1|	 Conta: 101	 Nome: Gustavo	 Limite: 243,00		 Saldo: 3554,00	 
+Linha: 2|	 Conta: 102	 Nome: Felix	 Limite: 57,50		 Saldo: 100,00	 
+Linha: 3|	 Conta: 103	 Nome: Paulo	 Limite: 4545,00		 Saldo: 21442,00	 
+Linha: 4|	 *********************************** REMOVIDO *********************************** 
+Linha: 5|	 Conta: 105	 Nome: Adolfo Pires	 Limite: 4357,00		 Saldo: 57435,00	 
+Linha: 6|	 Conta: 106	 Nome: Ugo	 Limite: 5745,00		 Saldo: 5475,00	 
+Linha: 7|	 Conta: 107	 Nome: Fausto Silva	 Limite: 575,00		 Saldo: 3254354,00	 
+Linha: 8|	 *********************************** REMOVIDO *********************************** 
+Linha: 9|	 Conta: 109	 Nome: Larissa Manoela	 Limite: 555,00		 Saldo: 25414,00	 
+Linha: 10|	 Conta: 110	 Nome: Isa Saudades	 Limite: 35435,00		 Saldo: 545454,00	 
+Linha: 11|	 Conta: 111	 Nome: Maria Jos‚	 Limite: 35354,00		 Saldo: 35433552,00	 
+Linha: 12|	 *********************************** REMOVIDO *********************************** 
+Linha: 13|	 Conta: 113	 Nome: Jonatan	 Limite: 575,00		 Saldo: 545454,00	 
+Linha: 14|	 Conta: 114	 Nome: Eduardo	 Limite: 556,00		 Saldo: 545454,00	 
+Linha: 15|	 Conta: 115	 Nome: Aparecida	 Limite: 56,00		 Saldo: 4545,00	 
+Linha: 16|	 *********************************** REMOVIDO *********************************** 
+Linha: 17|	 Conta: 117	 Nome: Luis Carlos	 Limite: 5454,00		 Saldo: 545454,00	 
+Linha: 18|	 Conta: 118	 Nome: Wesley	 Limite: 543,00		 Saldo: 5644,00	 
+Linha: 19|	 Conta: 119	 Nome: Serjao Berranteiro	 Limite: 5454,00		 Saldo: 54863,00	 
+Linha: 20|	 *********************************** REMOVIDO *********************************** 
+Linha: 21|	 Conta: 121	 Nome: Giovana	 Limite: 545,00		 Saldo: 5542,00	 
+Linha: 22|	 Conta: 122	 Nome: Luiza	 Limite: 545,00		 Saldo: 6863,00	 
+Linha: 23|	 Conta: 123	 Nome: William	 Limite: 86,00		 Saldo: 3253,00	 
+Linha: 24|	 Conta: 124	 Nome: Fiverton	 Limite: 5656,00		 Saldo: 55446,00	 
+Linha: 25|	 Conta: 125	 Nome: Jogi	 Limite: 327,00		 Saldo: 1762,00	 
+Linha: 26|	 Conta: 126	 Nome: Lucas	 Limite: 8556,00		 Saldo: 54255,00	 
+Linha: 27|	 Conta: 127	 Nome: Lukas com K	 Limite: 543,00		 Saldo: 5454,00	 
+Linha: 28|	 *********************************** REMOVIDO *********************************** 
+Linha: 29|	 Conta: 129	 Nome: Railander	 Limite: 656,00		 Saldo: 2235,00	 
+Linha: 30|	 Conta: 130	 Nome: Neymar	 Limite: 136,00		 Saldo: 54522,00	 
+Linha: 31|	 Conta: 131	 Nome: Ulisses	 Limite: 1123,00		 Saldo: 1216,00	 
+Linha: 32|	 *********************************** REMOVIDO *********************************** 
+Linha: 33|	 Conta: 133	 Nome: Enxo	 Limite: 5454,00		 Saldo: 1234,00	 
+Linha: 34|	 Conta: 134	 Nome: Eric	 Limite: 55,00		 Saldo: 53554,00	 
+Linha: 35|	 Conta: 135	 Nome: Reinaldo	 Limite: 5456,00		 Saldo: 543556,00	 
+Linha: 36|	 *********************************** REMOVIDO *********************************** 
+Linha: 37|	 Conta: 137	 Nome: Henrqiue	 Limite: 54,00		 Saldo: 3533,00	 
+Linha: 38|	 Conta: 138	 Nome: Heloisa	 Limite: 854,00		 Saldo: 12545,00	 
+Linha: 39|	 Conta: 139	 Nome: Marta	 Limite: 255,00		 Saldo: 13325,00	 
+Linha: 40|	 Conta: 140	 Nome: Bianca	 Limite: 565,00		 Saldo: 5483,00	 
+Linha: 41|	 Conta: 141	 Nome: Edna	 Limite: 54,00		 Saldo: 2424,00	 
+Linha: 42|	 Conta: 142	 Nome: Julia	 Limite: 54,00		 Saldo: 5454,00	 
+Linha: 43|	 Conta: 143	 Nome: Giulia	 Limite: 454,00		 Saldo: 5575,00	 
+Linha: 44|	 Conta: 144	 Nome: Karol com K	 Limite: 543,00		 Saldo: 5413,00	 
+Linha: 45|	 Conta: 145	 Nome: Izabel	 Limite: 3655,00		 Saldo: 43533,00	 
+Linha: 46|	 Conta: 146	 Nome: Larissa Jon	 Limite: 56,00		 Saldo: 5566,00	 
+Linha: 47|	 Conta: 147	 Nome: Fabricia	 Limite: 54,00		 Saldo: 6586,00	 
+Linha: 48|	 Conta: 216	 Nome: Carla	 Limite: 5456,00		 Saldo: 45456,00	 
+Linha: 49|	 Conta: 232	 Nome: Luis	 Limite: 54,00		 Saldo: 5663,00	 
+Linha: 50|	 Conta: 0	 Nome: Joao	 Limite: 5454,00		 Saldo: 7526,00	 
+Linha: 51|	 Conta: 1	 Nome: Pedro	 Limite: 56,00		 Saldo: 7853,00	 
+Linha: 52|	 Conta: 2	 Nome: Vechiato	 Limite: 56,00		 Saldo: 3514,00	 
+Linha: 53|	 Conta: 3	 Nome: Suda	 Limite: 875,00		 Saldo: 548755,00	 
+Linha: 54|	 Conta: 9	 Nome: Felipe	 Limite: 5454,00		 Saldo: 21344,00	 
+Linha: 55|	 Conta: 25	 Nome: Filipe	 Limite: 78,00		 Saldo: 5454,00	 
+Linha: 56|	 Conta: 10	 Nome: Karina	 Limite: 65,00		 Saldo: 42432,00	 
+Linha: 57|	 Conta: 26	 Nome: edu	 Limite: 335,00		 Saldo: 124214,00	 
+Linha: 58|	 Conta: 11	 Nome: Tales	 Limite: 796,00		 Saldo: 8555,00	 
+Linha: 59|	 Conta: 27	 Nome: Quesia	 Limite: 53,00		 Saldo: 12256,00	 
+Linha: 60|	 *********************************** REMOVIDO *********************************** 
+Linha: 61|	 Conta: 13	 Nome: Perfeito	 Limite: 5656,00		 Saldo: 332514,00	 
+Linha: 62|	 Conta: 14	 Nome: Maravilhoso	 Limite: 455,00		 Saldo: 54522,00	 
+Linha: 63|	 Conta: 15	 Nome: Masculo	 Limite: 899,00		 Saldo: 12134,00	 
